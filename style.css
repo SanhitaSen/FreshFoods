@@ -1,0 +1,256 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    background: url('/CompanyWebsite/Images/backgn\ \(1\).png') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo
+{
+    height: 80px;
+}
+/* li{
+    width: 230px;
+} */
+.nav a{
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: rgb(11, 31, 49,0.3);
+    margin: 2.5px;
+    text-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+
+}
+.nav a:hover{
+    border-bottom: 2px double rgb(3, 14, 2);
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px rgb(155, 155, 207);
+}
+@media screen and (max-width: 500px) {
+    .nav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+    .nav a:hover{
+        border: 2px solid rgb(189, 235, 235);
+        cursor: pointer;
+        margin: 10px;
+    }
+   
+  }
+ 
+  .input-group
+  {
+      position: relative;
+  }
+  .jumbo
+  {
+      font-family: cursive;
+      font-style: oblique;
+      font-size: 50px;
+      vertical-align: middle;      
+      text-align: center;
+      color: white;
+      background-color: transparent;
+      text-shadow: 4px 4px 5px black;
+      letter-spacing: 3px;
+      background-color: transparent;
+
+  }
+  a.navbar-brand
+  {
+      font-size: 35px;
+  }
+ .bodyPart
+ {
+     color: white;
+     font-family: Ubuntu;
+     text-shadow: 1px 1px 8px black;
+ }
+ #signUp
+ {
+     font-size: 18px;
+     margin: 0px 5px 0px 0px;
+ }
+ 
+ #login
+ {
+    font-size: 18px;
+     margin: 0px 5px;
+ }
+ 
+ .yellow
+ {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+     font-family: Lobster;
+     border: 2px outset white;
+     background-color: rgb(219, 163, 43);
+     position: relative;
+     top: 40px;
+     border-radius: 50%;
+     box-shadow: 2px 2px 10px rgb(211, 176, 105);
+ }
+ .yellow:hover{
+     cursor: pointer;
+     top: 52px;
+ }
+ 
+@media screen and (max-width: 500px) {
+    .row
+    {
+        text-align: center;
+    }
+    .yellow{
+        width: 350px;
+        height: 350px;
+        margin: 20px;
+        text-align: center;
+        left: 9vw;
+    }
+    .bodyPart
+    {
+        margin-top: 60px;
+    }
+}
+ 
+@media screen and (min-width: 500.1px) and (max-width: 800px) {
+    .row
+    {
+        text-align: center;
+    }
+    .yellow{
+        width: 380px;
+        height: 380px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .bodyPart
+    {
+        margin-top: 110px;
+    }
+}
+
+.boxStyle
+{
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1000px) {
+    .row
+    {
+        text-align: center;
+    }
+    .yellow{
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .bodyPart
+    {
+        margin-top: 135px;
+    }
+    
+.boxStyle
+{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+}
+
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+    .row
+    {
+        text-align: center;
+    }
+    .yellow{
+        width: 320px;
+        height: 330px;
+        margin-left: auto;
+        left: 50px;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+.boxStyle
+{
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+}
+.bodyPart
+{
+    margin-top: 80px;
+}
+}
+#image
+{
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 4px black;
+}
+#github
+{
+    height: 30px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: transparent;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+
+}
+#facebook
+{
+    height: 30px;
+    overflow: hidden;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+#footer
+{
+    color: white;
+    font-size: 18px;
+    text-shadow: 1px 1px 9px black;
+}
+.contact
+{
+    text-align: center;
+    margin-top: 100px;
+}
+.btnContact
+{
+    background-color: rgb(219, 163, 43);
+    font-size:25px;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 1px 1px 3px black;
+}
+
+.btnContact:hover
+{
+    background-color: rgb(192, 137, 18);
+    font-size:25px;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+}
