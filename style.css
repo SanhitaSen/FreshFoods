@@ -2,7 +2,7 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    background: url('/CompanyWebsite/Images/backgn\ \(1\).png') center center;
+    background: url('Images/backgn\ \(1\).png') center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
