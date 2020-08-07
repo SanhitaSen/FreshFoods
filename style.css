@@ -11,9 +11,6 @@ body{
 {
     height: 80px;
 }
-/* li{
-    width: 230px;
-} */
 .nav a{
     color: white;
     font-weight: bolder;
@@ -35,8 +32,6 @@ body{
     .nav a {
       float: none;
       display: block;
-      width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
     }
     .nav a:hover{
         border: 2px solid rgb(189, 235, 235);
@@ -88,6 +83,7 @@ body{
  
  .yellow
  {
+     height: 380px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -104,25 +100,47 @@ body{
      top: 52px;
  }
  
-@media screen and (max-width: 500px) {
+.boxStyle
+{
+    font-size: 50px;
+    position: relative;
+    top: 70px;
+}
+
+.bodyPart
+{
+    margin-top: 90px;
+}
+ 
+@media screen and (max-width: 500px) 
+{
     .row
     {
         text-align: center;
     }
     .yellow{
-        width: 350px;
-        height: 350px;
-        margin: 20px;
+        width: 280px;
+        height: 280px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
-        left: 9vw;
     }
     .bodyPart
     {
         margin-top: 60px;
     }
+       
+.boxStyle
+{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
 }
  
-@media screen and (min-width: 500.1px) and (max-width: 800px) {
+@media screen and (min-width: 500.1px) and (max-width: 800px) 
+{
     .row
     {
         text-align: center;
@@ -141,12 +159,6 @@ body{
     }
 }
 
-.boxStyle
-{
-    font-size: 50px;
-    position: relative;
-    top: 70px;
-}
 
 @media screen and (min-width: 780px) and (max-width: 1000px) {
     .row
@@ -174,7 +186,7 @@ body{
 }
 
 
-@media screen and (min-width: 1000px) and (max-width: 1600px) {
+@media screen and (min-width: 1001px) and (max-width: 1199px) {
     .row
     {
         text-align: center;
@@ -183,7 +195,6 @@ body{
         width: 320px;
         height: 330px;
         margin-left: auto;
-        left: 50px;
         margin-right: auto;
         text-align: center;
     }
@@ -196,7 +207,7 @@ body{
 }
 .bodyPart
 {
-    margin-top: 80px;
+    margin-top: 120px;
 }
 }
 #image
